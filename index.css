@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.header__row{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.header__row h1{
+    font-family: 'Nerko One', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main__container{
+    width: 34vw;
+    background-color: blue;
+}
+
+.content{
+    padding: 0 20px;
+}
+
+.content h1{
+    margin: 0px;
+    padding: 10px 10px;
+    letter-spacing: 2px;
+}
+
+.info__block{
+    text-align: center;
+}
+
+.info__block a{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.info__block p{
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.square{
+    float: left;
+
+    margin-bottom: 25px;
+    margin-right: 15px;
+
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+
+    background-color: rgba(0, 0, 0, 0);
+    width: 11ch;
+    height: 11ch;
+}
+
+.second__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table__block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 15px;
+    row-gap: 10px;
+}
+
+.second__block h2 {
+    margin: 0;
+    word-spacing: 10px;
+}
+
+.second__block h2 span{
+    color: red;
+}
+
+ul > li:nth-child(2){
+    margin: 15px 0;
+    letter-spacing: 3px;
+    color: aqua;
+}
+
+.Italic_text{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Bold_text{
+    font-weight: bold;
+}
+
+.Unlined_text{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.LineTh_text{
+    font-weight: 400;
+    text-decoration:line-through;
+}
+
+.table {
+    table-layout: fixed;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+}
+
+.table td{
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.first__row td:first-child{
+    background-color: green;
+}
+
+.third__row td:last-child{
+    background-color: red;
+}
+
+
+.footer__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.footer__row h2{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
